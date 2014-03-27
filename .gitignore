@@ -1,0 +1,33 @@
+# idea
+.idea
+*.iml
+*.ipr
+*.iws
+
+# netbeans 
+nbactions.xml
+nb-configuration.xml
+catalog.xml
+
+# vim
+*.swp
+
+# temp files
+*~
+
+# java
+hs_err_pid*.log
+
+# maven
+pom.xml.versionsBackup
+/target
+**/target
+
+# eclipse
+.project
+.settings
+.classpath
+.metadata
+
+# svn
+.svn
