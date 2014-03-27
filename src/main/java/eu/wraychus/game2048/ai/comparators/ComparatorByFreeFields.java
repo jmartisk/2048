@@ -17,7 +17,6 @@ public class ComparatorByFreeFields implements Comparator<GameState> {
         } else if (o2.getNumberOfFieldsWithZero() < o1.getNumberOfFieldsWithZero()) {
             return -1;
         }
-        return 1; // must not return 0!!!!!!!
-        //  the map is sorted by keys, so two keys must never be equal, we would lose some values
+        return 0;
     }
 }

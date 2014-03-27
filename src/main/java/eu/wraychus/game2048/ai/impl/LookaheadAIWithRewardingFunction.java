@@ -68,7 +68,7 @@ public class LookaheadAIWithRewardingFunction implements AI {
                 }
             }
         }
-        if(ret.size() == 0)
+        if(ret.isEmpty())
             return initialSet;
         return ret;
     }
